@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de PHP - CursoemVideo.com</title>
+    <link rel="stylesheet" href="_css/estilo.css" />
+</head>
+<body>
+    <!-- Permitir a personalização de um texto atraves de um formulario. -->
+    <div>
+        <form action="03cores.php" method="get">
+            <!-- atraves do get jogaremos isso para o arquivo php -->
+            <label for="itxt">Texto: </label>
+            <!-- o for tem que apontar para o ID do input -->
+            <input type="text" name="t" id="itxt"><br>
+            <!-- para trazer as variaveis para o back end, o name será usado -->
+            <label for="itam">Tamanho</label>
+            <select name="tam" id="itam">
+
+                <!-- aqui vamos ter diversas linhas de opções -->
+                <option value="8pt">8</option>
+                <option value="10pt">10</option>
+                <option value="14pt" selected>14</option>
+                <option value="20pt">20</option> 
+                <option value="40pt">40</option>
+            </select><br>
+            
+            <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor"><br>
+            <!-- Submit para o carregamento -->
+            <input type="submit" value="Gerar"><br>
+        </form>
+    </div>
+</body>
+</html>
