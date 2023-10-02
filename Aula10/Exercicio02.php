@@ -7,6 +7,7 @@
   <title>Curso de PHP - CursoemVideo.com</title>
 </head>
 
+
 <body>
   <div>
     <?php

@@ -22,6 +22,7 @@
       case 3:
         $r = sqrt($n);
     }
+    
     // aqui são casos de escolhas, o usuario irá escolher uma das opçoes, e cada case irá trazer
     // uma operação diferente.
 
